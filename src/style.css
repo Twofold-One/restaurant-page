@@ -49,6 +49,7 @@ header {
 
 .active {
     background-image: linear-gradient(#99FFCC, #FFCCFF);
+    color: black;
 }
 
 body {
