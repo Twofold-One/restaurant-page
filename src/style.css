@@ -84,7 +84,7 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 50%;
-    max-width: 600px;
+    max-width: 550px;
     opacity: 0.8;
 }
 
@@ -99,4 +99,53 @@ footer {
     display: flex;
     justify-content: center;
     min-width: 600px;
+}
+
+
+/*menu styling*/
+.food-and-drink {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.f-n-d {
+    min-width: 300px;
+    max-width: 570px;
+    height: 600px;
+    border: 5px solid var(--aqualime);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+.f-n-d > h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.f-n-d > img {
+    max-width: 250px;
+    margin: auto;
+    border: 5px double gray;
+    border-radius: 10px;
+}
+
+/* contacts styling */
+
+.globe-gif {
+    box-shadow: 1px 1px 50px blue;
+}
+
+i {
+    margin-right: 20px;
+}
+
+.edited {
+    display: flex;
+    flex-direction: row;
 }
