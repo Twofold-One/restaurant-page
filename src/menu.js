@@ -38,7 +38,7 @@ function createMenu() {
             snacksH3.textContent = 'Random snacks';
             
             const snacksImg = document.createElement('img');
-            snacksImg.src = '/src/images/snacks.jpg';
+            snacksImg.src = '/dist/images/snacks.jpg';
             snacksImg.alt = 'snacks image';
 
             const snacksP = document.createElement('p');
@@ -59,7 +59,7 @@ function createMenu() {
             beveragesH3.textContent = 'Random beverages';
             
             const beveragesImg = document.createElement('img');
-            beveragesImg.src = '/src/images/drinks.jpg';
+            beveragesImg.src = '/dist/images/drinks.jpg';
             beveragesImg.alt = 'drinks image';
 
             const beveragesP = document.createElement('p');
@@ -80,7 +80,7 @@ function createMenu() {
             dessertsH3.textContent = 'Random beverages';
             
             const dessertsImg = document.createElement('img');
-            dessertsImg.src = '/src/images/desserts.jpeg';
+            dessertsImg.src = '/dist/images/desserts.jpeg';
             dessertsImg.alt = 'desserts image';
 
             const dessertsP = document.createElement('p');
@@ -101,7 +101,7 @@ function createMenu() {
             skittlesH3.textContent = 'And...';
             
             const skittlesImg = document.createElement('img');
-            skittlesImg.src = '/src/images/skittles.jpg';
+            skittlesImg.src = '/dist/images/skittles.jpg';
             skittlesImg.alt = 'skittles image';
 
             const skittlesP = document.createElement('p');
