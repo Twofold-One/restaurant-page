@@ -55,6 +55,7 @@ function createHome() {
         
         const homeWorkingTimeList = document.createElement('ul');
         homeWorkingTimeList.className ='working-time-list';
+        homeWorkingTime.appendChild(homeWorkingTimeList);
 
         createListElement('Monday: random time between 8am - 8pm');
         createListElement('Tuesday: random time between 8am - 8pm');
@@ -68,8 +69,6 @@ function createHome() {
             const listElement = document.createElement('li');
             listElement.textContent = text;
             homeWorkingTimeList.appendChild(listElement);
-
-            return listElement;
         }
 
         return homeWorkingTime;
@@ -85,14 +84,4 @@ function createHome() {
     return home;
 }
 
-// function addHomeToContent() {
-//     const content = document.getElementById('content');
-//     content.textContent = '';
-//     content.appendChild(createHome());
-// }
-
 export default createHome;
-
-
-// const checker = () => console.log('home-page connected');
-// export {checker};
