@@ -17,7 +17,7 @@ function createHome() {
         homeHeadingH2.textContent = 'For random folks';
 
         const homeHeadingImg = document.createElement('img');
-        homeHeadingImg.src = '/images/PUB.jpeg';
+        homeHeadingImg.src = 'images/PUB.jpeg';
         homeHeadingImg.alt = 'PUB image';
 
         homeHeading.appendChild(homeHeadingH1);

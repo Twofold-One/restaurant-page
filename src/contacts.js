@@ -14,7 +14,7 @@ function createContacts() {
         
         const contactsPlaceImg = document.createElement('img');
         contactsPlaceImg.className = 'globe-gif';
-        contactsPlaceImg.src = '/images/globe.gif';
+        contactsPlaceImg.src = 'images/globe.gif';
         contactsPlaceImg.alt = 'globe rotaition animation';
 
         const contactsPlaceP = document.createElement('p');
